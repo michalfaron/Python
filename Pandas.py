@@ -6,4 +6,4 @@ pd.to_datetime(df[["month", "day", "year"]])
 df.index = pd.to_datetime(df[["month", "day", "year"]])
 
 
-print(df)
+print(df.head())
